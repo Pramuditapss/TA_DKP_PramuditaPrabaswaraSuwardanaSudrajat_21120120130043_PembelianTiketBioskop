@@ -99,7 +99,6 @@ lbhari      = Label(text = "HARI\t:", bg = "#B22222").place(x=30, y=160)
 #input nama user  
 stringnama = StringVar()
 inama = Entry(top,width = 20, textvariable=stringnama).place(x = 105, y = 10) 
-angka =  [str(x) for x in range(0,999999)]
 
 #radio film
 film = IntVar()
